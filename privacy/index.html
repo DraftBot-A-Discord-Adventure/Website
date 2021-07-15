@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="canonical" href="https://draftbot.com/donate">
+    <link rel="apple-touch-icon" sizes="128x128"
+          href="https://bastlast.github.io/DraftBot-A-Discord-Adventure/public/ressources/logo-min.png"/>
+    <title>DraftBot - A multiplayer role-play game for Discord</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+          content="DraftBot is an open-source Discord bot based on a multiplayer text adventure game. Begin your journey in a medieval world and battle to win the kingdom's princess's hand.">
+    <meta property='og:image'
+          content='https://bastlast.github.io/DraftBot-A-Discord-Adventure/public/ressources/logo-min.png'/>
+    <meta property="og:site_name" content="draftbot.com"/>
+
+    <!-- Favicon -->
+    <link href="../public/ressources/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="../public/ressources/favicon.ico" rel="icon" type="image/x-icon"/>
+
+    <link rel="preload" href="../public/css/home.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+          integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+          crossorigin="anonymous" as="style">
+    <link rel="stylesheet" href="../public/css/home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+            integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+          integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+          crossorigin="anonymous"/>
+
+</head>
+<body>
+<div class="header">
+    <header>
+        <a class="logo" href="/"><img src="../public/ressources/banner-min.png" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a rel="noopener" target="_blank" href="https://guide.draftbot.com/v/en">About</a></li>
+                <li><a rel="noopener" target="_blank"
+                       href="https://github.com/DraftBot-A-Discord-Adventure">Github</a></li>
+                <li><a rel="noopener" target="_blank" href="https://history.draftbot.com">History</a>
+                </li>
+                <li><a rel="noopener" target="_blank" href="https://discord.com/invite/5JqrMtZ">I need help</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- TODO:
+    <div class="dropdown">
+      <a class="button buttonWhite buttonSmall bold buttonLanguage" id="pc-menu"><i
+          class="fas fa-globe-americas buttonSmallIcon"></i> EN</a>
+      <div class="dropdown-content">
+        <a href="/fr"><i class="fas fa-angle-right buttonSmallIcon"></i> FR</a>
+      </div>
+    </div>
+  -->
+        <div class="menu">
+            <p class="button buttonWhite buttonSmall bold">Menu</p>
+        </div>
+    </header>
+
+
+    <div class="overlay">
+
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <ul>
+                <li><a rel="noopener" target="_blank" href="https://guide.draftbot.com/v/en">About</a></li>
+                <li><a rel="noopener" target="_blank"
+                       href="https://github.com/DraftBot-A-Discord-Adventure">Github</a></li>
+                <li><a rel="noopener" target="_blank" href="https://history.draftbot.com">History</a>
+                </li>
+                <li><a rel="noopener" target="_blank" href="https://discord.com/invite/5JqrMtZ">I need help</a>
+                </li>
+                <!-- TODO:
+        <li><a href="/fr">Passer en Français</a></li>
+      -->
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="smallMargin smallWaves">
+    <svg width="100%" height="175px" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#fff"/>
+        </linearGradient>
+        <path fill="url(#grad1)" d="
+                    M0 67
+                    C 273,183
+                    822,-40
+                    1920.00,106
+                    V 359
+                    H 0
+                    V 67
+                    Z">
+            <animate repeatCount="indefinite" fill="url(#grad1)" attributeName="d" dur="35s" attributeType="XML"
+                     values="
+                    M0 77
+                    C 473,283
+                    822,-40
+                    1920,116
+                    V 359
+                    H 0
+                    V 67
+                    Z;
+                    M0 77
+                    C 473,-40
+                    1222,283
+                    1920,136
+                    V 359
+                    H 0
+                    V 67
+                    Z;
+                    M0 77
+                    C 973,260
+                    1722,-53
+                    1920,120
+                    V 359
+                    H 0
+                    V 67
+                    Z;
+                    M0 77
+                    C 473,283
+                    822,-40
+                    1920,116
+                    V 359
+                    H 0
+                    V 67
+                    Z
+                    ">
+            </animate>
+        </path>
+    </svg>
+</div>
+<section class="mediumMargin paddingWave">
+    <div class="container">
+        <div>
+            <h2>Privacy Policy</h2>
+            <p>Your privacy is important to us. It is DraftBot&#39;s policy to respect your privacy and comply with any
+                applicable
+                law and regulation regarding any personal information we may collect about you, including across our
+                website, <a
+                        href="https://draftbot.com">https://draftbot.com</a>, and the discord bot that is linked. </p>
+            <p>This policy is effective as of 1 January 2021 and was last updated on 15 July 2021. </p>
+            <h3>Information We Collect</h3>
+            <p>Information we collect includes both information you knowingly and actively provide us when using or
+                participating in
+                any of our services and promotions, and any information automatically sent by your devices in the course
+                of
+                accessing our products and services. </p>
+            <h4>Log Data</h4>
+            <p>When you visit our website, our servers may automatically log the standard data provided by your web
+                browser.
+                It may
+                include your device’s Internet Protocol (IP) address, your browser type and version, the pages you
+                visit,
+                the time
+                and date of your visit, the time spent on each page, other details about your visit, and technical
+                details
+                that
+                occur in conjunction with any errors you may encounter. </p>
+            <p>Please be aware that while this information may not be personally identifying by itself, it may be
+                possible
+                to
+                combine it with other data to personally identify individual persons. </p>
+            <h4>Collection and Use of Information</h4>
+            <p>We may collect personal information from you when you do any of the following on our website: </p>
+            <ul>
+                <li>Use a mobile device or web browser to access our content</li>
+                <li>Contact us via email, social media, or on any similar technologies</li>
+                <li>When you mention us on social media</li>
+            </ul>
+            <p>We do not collect any personal information through the discord bots. </p>
+            <p>We may collect, hold, use, and disclose information for the following purposes, and personal information
+                will
+                not be
+                further processed in a manner that is incompatible with these purposes: </p>
+            <p>Please be aware that we may combine information we collect about you with general information or research
+                data we
+                receive from other trusted sources. </p>
+            <h4>Security of Your Personal Information</h4>
+            <p>When we collect and process personal information, and while we retain this information, we will protect
+                it
+                within
+                commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure,
+                copying, use,
+                or modification. </p>
+            <p>Although we will do our best to protect the personal information you provide to us, we advise that no
+                method
+                of
+                electronic transmission or storage is 100% secure, and no one can guarantee absolute data security. We
+                will
+                comply
+                with laws applicable to us in respect of any data breach. </p>
+            <p>You are responsible for selecting any password and its overall security strength, ensuring the security
+                of
+                your own
+                information within the bounds of our services. </p>
+            <h4>How Long We Keep Your Personal Information</h4>
+            <p>We keep your personal information only for as long as we need to. This time period may depend on what we
+                are
+                using
+                your information for, in accordance with this privacy policy. If your personal information is no longer
+                required, we
+                will delete it or make it anonymous by removing all details that identify you. </p>
+            <p>However, if necessary, we may retain your personal information for our compliance with a legal,
+                accounting,
+                or
+                reporting obligation or for archiving purposes in the public interest, scientific, or historical
+                research
+                purposes
+                or statistical purposes. </p>
+            <h3>Children’s Privacy</h3>
+            <p>We do not aim any of our products or services directly at children under the age of 13, and we do not
+                knowingly
+                collect personal information about children under 13. </p>
+            <h3>Disclosure of Personal Information to Third Parties</h3>
+            <p>We may disclose personal information to: </p>
+            <ul>
+                <li>a parent, subsidiary, or affiliate of our company</li>
+                <li>third party service providers for the purpose of enabling them to provide their services, for
+                    example,
+                    IT
+                    service providers, data storage, hosting and server providers, advertisers, or analytics platforms
+                </li>
+                <li>our employees, contractors, and/or related entities</li>
+                <li>our existing or potential agents or business partners</li>
+                <li>sponsors or promoters of any competition, sweepstakes, or promotion we run</li>
+                <li>courts, tribunals, regulatory authorities, and law enforcement officers, as required by law, in
+                    connection with
+                    any actual or prospective legal proceedings, or in order to establish, exercise, or defend our legal
+                    rights
+                </li>
+                <li>third parties, including agents or sub-contractors, who assist us in providing information,
+                    products,
+                    services,
+                    or direct marketing to you third parties to collect and process data
+                </li>
+            </ul>
+            <h3>International Transfers of Personal Information</h3>
+            <p>The personal information we collect is stored and/or processed where we or our partners, affiliates, and
+                third-party
+                providers maintain facilities. Please be aware that the locations to which we store, process, or
+                transfer
+                your
+                personal information may not have the same data protection laws as the country in which you initially
+                provided the
+                information. If we transfer your personal information to third parties in other countries: (i) we will
+                perform those
+                transfers in accordance with the requirements of applicable law; and (ii) we will protect the
+                transferred
+                personal
+                information in accordance with this privacy policy. </p>
+            <h3>Your Rights and Controlling Your Personal Information</h3>
+            <p>You always retain the right to withhold personal information from us, with the understanding that your
+                experience of
+                our website may be affected. We will not discriminate against you for exercising any of your rights over
+                your
+                personal information. If you do provide us with personal information you understand that we will
+                collect,
+                hold, use
+                and disclose it in accordance with this privacy policy. You retain the right to request details of any
+                personal
+                information we hold about you. </p>
+            <p>If we receive personal information about you from a third party, we will protect it as set out in this
+                privacy
+                policy. If you are a third party providing personal information about somebody else, you represent and
+                warrant that
+                you have such person’s consent to provide the personal information to us. </p>
+            <p>If you have previously agreed to us using your personal information for direct marketing purposes, you
+                may
+                change
+                your mind at any time. We will provide you with the ability to unsubscribe from our email-database or
+                opt
+                out of
+                communications. Please be aware we may need to request specific information from you to help us confirm
+                your
+                identity. </p>
+            <p>If you believe that any information we hold about you is inaccurate, out of date, incomplete, irrelevant,
+                or
+                misleading, please contact us using the details provided in this privacy policy. We will take reasonable
+                steps to
+                correct any information found to be inaccurate, incomplete, misleading, or out of date. </p>
+            <p>If you believe that we have breached a relevant data protection law and wish to make a complaint, please
+                contact us
+                using the details below and provide us with full details of the alleged breach. We will promptly
+                investigate
+                your
+                complaint and respond to you, in writing, setting out the outcome of our investigation and the steps we
+                will
+                take to
+                deal with your complaint. You also have the right to contact a regulatory body or data protection
+                authority
+                in
+                relation to your complaint. </p>
+            <h3>Limits of Our Policy</h3>
+            <p>Our website may link to external sites that are not operated by us. Please be aware that we have no
+                control
+                over the
+                content and policies of those sites, and cannot accept responsibility or liability for their respective
+                privacy
+                practices. </p>
+            <h3>Changes to This Policy</h3>
+            <p>At our discretion, we may change our privacy policy to reflect updates to our business processes, current
+                acceptable
+                practices, or legislative or regulatory changes. If we decide to change this privacy policy, we will
+                post
+                the
+                changes here at the same link by which you are accessing this privacy policy. </p>
+            <p>If required by law, we will get your permission or give you the opportunity to opt in to or opt out of,
+                as
+                applicable, any new uses of your personal information. </p>
+            <h3>Contact Us</h3>
+            <p>For any questions or concerns regarding your privacy, you may contact us using the following
+                details: </p>
+            <p>Bastien Lastyerie<br/>
+                contact@draftbot.com </p>
+        </div>
+    </div>
+
+    <div class="waves">
+        <svg width="100%" height="175px" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#23272a" d="
+                        M0 67
+                        C 273,183
+                        822,-40
+                        1920.00,106
+                        V 359
+                        H 0
+                        V 67
+                        Z">
+                <animate repeatCount="indefinite" fill="#23272a" attributeName="d" dur="35s" attributeType="XML"
+                         values="
+                        M0 77
+                        C 473,283
+                        822,-40
+                        1920,116
+                        V 359
+                        H 0
+                        V 67
+                        Z;
+                        M0 77
+                        C 473,-40
+                        1222,283
+                        1920,136
+                        V 359
+                        H 0
+                        V 67
+                        Z;
+                        M0 77
+                        C 973,260
+                        1722,-53
+                        1920,120
+                        V 359
+                        H 0
+                        V 67
+                        Z;
+                        M0 77
+                        C 473,283
+                        822,-40
+                        1920,116
+                        V 359
+                        H 0
+                        V 67
+                        Z
+                        ">
+                </animate>
+            </path>
+        </svg>
+    </div>
+</section>
+
+<footer id="footer" class="smallPadding">
+    <div class="container">
+
+        <p class="copyright center">
+            MIT License -
+            <var id="year">2020</var> | Check Draftbot on <a rel="noopener" href="https://twitter.com/Draftbot_"
+                                                             target="_blank">Twitter</a> ! | This website was made with
+            <i class="fas fa-heart"></i> by
+            <a href="https://behance.net/mw3y" rel="noopener" target="_blank">MΛX</a> and <a
+                href="https://twitter.com/Bastlast_" target="_blank">BastLast</a>, icons from
+            <a href="https://icons8.com" rel="noopener" target="_blank">icons8.com</a> &
+            illustrations by <a
+                href='https://www.freepik.com/free-vector/medieval-castle-interior-flat-cartoon-composition-with-king-throne-armed-knight-coat-arms-guard_6845842.htm'>macrovector
+            -
+            fr.freepik.com</a>
+        </p>
+
+
+    </div>
+    <p class="copyright center">
+        We use cookies to analyse the traffic on this website. You can learn more here ! <a href="https://draftbot.com/privacy">https://draftbot.com/privacy</a>
+    </p>
+
+</footer>
+
+<script>
+    AOS.init();
+
+    const doc = document;
+    const menuOpen = doc.querySelector(".menu");
+    const menuClose = doc.querySelector(".close");
+    const overlay = doc.querySelector(".overlay");
+
+    menuOpen.addEventListener("click", () => {
+        overlay.classList.add("overlay--active");
+    });
+
+    menuClose.addEventListener("click", () => {
+        overlay.classList.remove("overlay--active");
+    });
+
+    var $root = $('html, body');
+    $('a[href^="#"]').click(function () {
+        $root.animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+
+        return false;
+    });
+</script>
+
+<script>
+    (function () {
+        var css = document.createElement('link');
+        css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+        css.rel = 'stylesheet';
+        css.type = 'text/css';
+        document.getElementsByTagName('head')[0].appendChild(css);
+    })();
+</script>
+</body>
+</html>

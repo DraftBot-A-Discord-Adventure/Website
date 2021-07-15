@@ -2,112 +2,118 @@
 <html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167755232-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167755232-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-167755232-2');
-  </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-  <link rel="canonical" href="https://draftbot.com">
-  <link rel="apple-touch-icon" sizes="128x128"
-    href="https://bastlast.github.io/DraftBot-A-Discord-Adventure/public/ressources/logo-min.png" />
-  <title>DraftBot - A multiplayer role-play game for Discord</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description"
-    content="DraftBot is an open-source Discord bot based on a multiplayer text adventure game. Begin your journey in a medieval world and battle to win the kingdom's princess's hand.">
-  <meta property='og:image'
-    content='https://bastlast.github.io/DraftBot-A-Discord-Adventure/public/ressources/logo-min.png' />
-  <meta property="og:site_name" content="draftbot.com" />
+        gtag('js', new Date());
 
-  <!-- Favicon -->
-  <link href="public/ressources/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-  <link href="public/ressources/favicon.ico" rel="icon" type="image/x-icon" />
+        gtag('config', 'UA-167755232-2');
+    </script>
 
-  <link rel="preload" href="public/css/home.css" as="style">
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-    crossorigin="anonymous" as="style">
-  <link rel="stylesheet" href="public/css/home.css">
+    <link rel="canonical" href="https://draftbot.com">
+    <link rel="apple-touch-icon" sizes="128x128"
+          href="https://bastlast.github.io/DraftBot-A-Discord-Adventure/public/ressources/logo-min.png"/>
+    <title>DraftBot - A multiplayer role-play game for Discord</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+          content="DraftBot is an open-source Discord bot based on a multiplayer text adventure game. Begin your journey in a medieval world and battle to win the kingdom's princess's hand.">
+    <meta property='og:image'
+          content='https://bastlast.github.io/DraftBot-A-Discord-Adventure/public/ressources/logo-min.png'/>
+    <meta property="og:site_name" content="draftbot.com"/>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-    crossorigin="anonymous" />
+    <!-- Favicon -->
+    <link href="public/ressources/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="public/ressources/favicon.ico" rel="icon" type="image/x-icon"/>
+
+    <link rel="preload" href="public/css/home.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+          integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+          crossorigin="anonymous" as="style">
+    <link rel="stylesheet" href="public/css/home.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+            integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+          integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+          crossorigin="anonymous"/>
 
 </head>
 
 <body>
-  <div class="hero-bg">
+<div class="hero-bg">
     <div>
-      <header>
-        <a class="logo" href="/"><img src="public/ressources/banner-min.png" alt="logo"></a>
-        <nav>
-          <ul class="nav__links">
-            <li><a rel="noopener" target="_blank" href="https://guide.draftbot.com">About</a></li>
-            <li><a href="#add">Add the bot to your server</a></li>
-            <li><a rel="noopener" href="/donate/">Donate</a></li>
-            <li><a rel="noopener" target="_blank" href="https://github.com/DraftBot-A-Discord-Adventure">Github</a></li>
-            <li><a rel="noopener" target="_blank" href="https://history.draftbot.com">History</a>
-            </li>
-            <li><a rel="noopener" target="_blank" href="https://discord.com/invite/5JqrMtZ">I need help</a></li>
-          </ul>
-        </nav>
-        <!-- TODO: 
-        <div class="dropdown">
-          <a class="button buttonWhite buttonSmall bold buttonLanguage" id="pc-menu"><i
-              class="fas fa-globe-americas buttonSmallIcon"></i> EN</a>
-          <div class="dropdown-content">
-            <a href="/fr"><i class="fas fa-angle-right buttonSmallIcon"></i> FR</a>
-          </div>
-        </div>
-      -->
-        <div class="menu">
-          <p class="button buttonWhite buttonSmall bold">Menu</p>
-        </div>
-      </header>
-
-      <div class="overlay">
-        <a class="close">&times;</a>
-        <div class="overlay__content">
-          <ul>
-            <li><a rel="noopener" target="_blank" href="https://guide.draftbot.com">About</a></li>
-            <li><a href="#add">Add the bot to your server</a></li>
-            <li><a rel="noopener" href="/donate/">Donate</a></li>
-            <li><a rel="noopener" target="_blank" href="https://github.com/DraftBot-A-Discord-Adventure">Github</a></li>
-            <li><a rel="noopener" target="_blank" href="https://history.draftbot.com">History</a>
-            </li>
-            <li><a rel="noopener" target="_blank" href="https://discord.com/invite/5JqrMtZ">I need help</a></li>
-            <!-- TODO: 
-            <li><a href="/fr">Passer en Français</a></li>
+        <header>
+            <a class="logo" href="/"><img src="public/ressources/banner-min.png" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a rel="noopener" target="_blank" href="https://guide.draftbot.com">About</a></li>
+                    <li><a href="#add">Add the bot to your server</a></li>
+                    <li><a rel="noopener" href="/donate/">Donate</a></li>
+                    <li><a rel="noopener" target="_blank"
+                           href="https://github.com/DraftBot-A-Discord-Adventure">Github</a></li>
+                    <li><a rel="noopener" target="_blank" href="https://history.draftbot.com">History</a>
+                    </li>
+                    <li><a rel="noopener" target="_blank" href="https://discord.com/invite/5JqrMtZ">I need help</a></li>
+                </ul>
+            </nav>
+            <!-- TODO:
+            <div class="dropdown">
+              <a class="button buttonWhite buttonSmall bold buttonLanguage" id="pc-menu"><i
+                  class="fas fa-globe-americas buttonSmallIcon"></i> EN</a>
+              <div class="dropdown-content">
+                <a href="/fr"><i class="fas fa-angle-right buttonSmallIcon"></i> FR</a>
+              </div>
+            </div>
           -->
-          </ul>
-        </div>
-      </div>
+            <div class="menu">
+                <p class="button buttonWhite buttonSmall bold">Menu</p>
+            </div>
+        </header>
 
-      <div class="hero-infos">
-        <div>
-          <h1 class="title">DraftBot - A Discord Adventure</h1>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <ul>
+                    <li><a rel="noopener" target="_blank" href="https://guide.draftbot.com">About</a></li>
+                    <li><a href="#add">Add the bot to your server</a></li>
+                    <li><a rel="noopener" href="/donate/">Donate</a></li>
+                    <li><a rel="noopener" target="_blank"
+                           href="https://github.com/DraftBot-A-Discord-Adventure">Github</a></li>
+                    <li><a rel="noopener" target="_blank" href="https://history.draftbot.com">History</a>
+                    </li>
+                    <li><a rel="noopener" target="_blank" href="https://discord.com/invite/5JqrMtZ">I need help</a></li>
+                    <!-- TODO:
+                    <li><a href="/fr">Passer en Français</a></li>
+                  -->
+                </ul>
+            </div>
         </div>
-        <a href="https://discord.gg/WwgBfSg" class="button buttonWhite buttonLarge" id="buttonJoin"><i
-            class="fab fa-discord buttonIcon"></i>
-          Join the community!</a>
-        <a href="https://guide.draftbot.com" class="button buttonGrey buttonLarge buttonUse"><i
-            class="fas fa-chevron-right buttonIcon"></i>Read the player's guide!</a>
-      </div>
+
+        <div class="hero-infos">
+            <div>
+                <h1 class="title">DraftBot - A Discord Adventure</h1>
+            </div>
+            <a href="https://discord.gg/WwgBfSg" class="button buttonWhite buttonLarge" id="buttonJoin"><i
+                    class="fab fa-discord buttonIcon"></i>
+                Join the community!</a>
+            <a href="https://guide.draftbot.com" class="button buttonGrey buttonLarge buttonUse"><i
+                    class="fas fa-chevron-right buttonIcon"></i>Read the player's guide!</a>
+        </div>
     </div>
     <div class="waves">
-      <svg width="100%" height="175px" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#fff" />
-        </linearGradient>
-        <path fill="url(#grad1)" d="
+        <svg width="100%" height="175px" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#fff"/>
+            </linearGradient>
+            <path fill="url(#grad1)" d="
                     M0 67
                     C 273,183
                     822,-40
@@ -116,7 +122,8 @@
                     H 0
                     V 67
                     Z">
-          <animate repeatCount="indefinite" fill="url(#grad1)" attributeName="d" dur="35s" attributeType="XML" values="
+                <animate repeatCount="indefinite" fill="url(#grad1)" attributeName="d" dur="35s" attributeType="XML"
+                         values="
                     M0 77
                     C 473,283
                     822,-40
@@ -150,106 +157,112 @@
                     V 67
                     Z
                     ">
-          </animate>
-        </path>
-      </svg>
+                </animate>
+            </path>
+        </svg>
     </div>
-  </div>
-  <section class="verySmallMargin" id="imgExample">
+</div>
+<section class="verySmallMargin" id="imgExample">
     <div class="container" data-aos="fade-up" data-aos-duration="700">
-      <img alt="Gameplay example" src="public/ressources/example-white-min.png" class="shadowed pc-content">
+        <img alt="Gameplay example" src="public/ressources/example-white-min.png" class="shadowed pc-content">
     </div>
     <div class="container smallMargin-pc smallMarginBottom" data-aos="fade-up" data-aos-duration="700">
-      <div class="div-1">
-        <div class="text-left">
-          <h2 class="title">
-            Start your adventure...
-          </h2>
-          <div class="text">
-            <b>Draftbot is a simple rp Discord bot.</b> Use the <code>!report</code> command and choose your action,
-            earn money, stuff, points, and use them to buy stuff in the shop, fight other players,
-            create your guild, and ascend the leaderboards.
-          </div>
+        <div class="div-1">
+            <div class="text-left">
+                <h2 class="title">
+                    Start your adventure...
+                </h2>
+                <div class="text">
+                    <b>Draftbot is a simple rp Discord bot.</b> Use the <code>!report</code> command and choose your
+                    action,
+                    earn money, stuff, points, and use them to buy stuff in the shop, fight other players,
+                    create your guild, and ascend the leaderboards.
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="pc-content">
-        <div class="text-right">
-          <h2 class="title">
-            ... and write the next chapter
-          </h2>
-          <div class="text">
-            <b>Draftbot's story is written by the players!</b> You can join the community and help us write stories for
-            all the players. We are also searching for testers and translators!
-          </div>
+        <div class="pc-content">
+            <div class="text-right">
+                <h2 class="title">
+                    ... and write the next chapter
+                </h2>
+                <div class="text">
+                    <b>Draftbot's story is written by the players!</b> You can join the community and help us write
+                    stories for
+                    all the players. We are also searching for testers and translators!
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <section id="open-source" class="mediumMargin background">
+<section id="open-source" class="mediumMargin background">
     <div class="container" data-aos="fade-up" data-aos-duration="700">
-      <div class="div-1">
-        <div class="description">
-          <h2 class="title">
-            A fully open-source project!
-          </h2>
-          <div class="text">
-            The whole community works together to create and improve the game experience. Your help is more than
-            welcome!
-            You can follow our progression <a rel="noopener"
-              href="https://github.com/BastLast/DraftBot-A-Discord-Adventure" target="_blank">here on github!</a>
-          </div>
+        <div class="div-1">
+            <div class="description">
+                <h2 class="title">
+                    A fully open-source project!
+                </h2>
+                <div class="text">
+                    The whole community works together to create and improve the game experience. Your help is more than
+                    welcome!
+                    You can follow our progression <a rel="noopener"
+                                                      href="https://github.com/BastLast/DraftBot-A-Discord-Adventure"
+                                                      target="_blank">here on github!</a>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="div-2">
-        <img alt="Github logo" src="public/ressources/github-min.png" class="question invert pc-content">
-      </div>
+        <div class="div-2">
+            <img alt="Github logo" src="public/ressources/github-min.png" class="question invert pc-content">
+        </div>
     </div>
-  </section>
+</section>
 
-  <section class="mediumMargin" id="add">
+<section class="mediumMargin" id="add">
     <div class="container" data-aos="fade-up" data-aos-duration="700">
-      <div class="div-1">
-        <img alt="permission list" src="public/ressources/permissionsHundreds-min.png"
-          class="screen longScreen pc-content">
-      </div>
-      <div class="div-2">
-        <div class="description">
-          <h2 class="title">
-            Add the bot to your server!
-          </h2>
-          <div class="text">
-            The bot only needs basic permissions <b>in one channel</b> to be fully functional!
-            All the features are unlocked without giving access to your precious server's admin pannel.
-             <a href="https://discordapp.com/api/oauth2/authorize?client_id=448110812801007618&permissions=280640&scope=bot" target="_blank" rel="noopener" class="button buttonGrey buttonLarge buttonUse"><i
-            class="fas fa-chevron-right buttonIcon"></i>Add Draftbot to your server</a>
-          </div>
+        <div class="div-1">
+            <img alt="permission list" src="public/ressources/permissionsHundreds-min.png"
+                 class="screen longScreen pc-content">
         </div>
-      </div>
+        <div class="div-2">
+            <div class="description">
+                <h2 class="title">
+                    Add the bot to your server!
+                </h2>
+                <div class="text">
+                    The bot only needs basic permissions <b>in one channel</b> to be fully functional!
+                    All the features are unlocked without giving access to your precious server's admin pannel.
+                    <a href="https://discordapp.com/api/oauth2/authorize?client_id=448110812801007618&permissions=280640&scope=bot"
+                       target="_blank" rel="noopener" class="button buttonGrey buttonLarge buttonUse"><i
+                            class="fas fa-chevron-right buttonIcon"></i>Add Draftbot to your server</a>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
+</section>
 
-  <section class="mediumMargin paddingWave">
+<section class="mediumMargin paddingWave">
     <div class="container" data-aos="fade-up" data-aos-duration="700">
-      <div class="div-1">
-        <div class="description">
-          <h2 class="title">
-            Read the guide!
-          </h2>
-          <div class="text">
-            We wrote a complete guide to help you start your adventure and contribute to the project! You can learn
-            everything about the project <a rel="noopener" href="https://guide.draftbot.com" target="_blank">here on
-              gitbook!</a>
-          </div>
+        <div class="div-1">
+            <div class="description">
+                <h2 class="title">
+                    Read the guide!
+                </h2>
+                <div class="text">
+                    We wrote a complete guide to help you start your adventure and contribute to the project! You can
+                    learn
+                    everything about the project <a rel="noopener" href="https://guide.draftbot.com" target="_blank">here
+                    on
+                    gitbook!</a>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="div-2">
-        <img alt="logo retro draftbiot" src="public/ressources/logo-retro-min.png" class="Bigquestion pc-content">
-      </div>
+        <div class="div-2">
+            <img alt="logo retro draftbiot" src="public/ressources/logo-retro-min.png" class="Bigquestion pc-content">
+        </div>
     </div>
     <div class="waves">
-      <svg width="100%" height="175px" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#23272a" d="
+        <svg width="100%" height="175px" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#23272a" d="
                         M0 67
                         C 273,183
                         822,-40
@@ -258,7 +271,8 @@
                         H 0
                         V 67
                         Z">
-          <animate repeatCount="indefinite" fill="#23272a" attributeName="d" dur="35s" attributeType="XML" values="
+                <animate repeatCount="indefinite" fill="#23272a" attributeName="d" dur="35s" attributeType="XML"
+                         values="
                         M0 77
                         C 473,283
                         822,-40
@@ -292,32 +306,36 @@
                         V 67
                         Z
                         ">
-          </animate>
-        </path>
-      </svg>
+                </animate>
+            </path>
+        </svg>
     </div>
-  </section>
+</section>
 
-  <footer id="footer" class="smallPadding">
+<footer id="footer" class="smallPadding">
     <div class="container">
 
-      <p class="copyright center">
-        MIT License -
-        <var id="year">2020</var> | Check Draftbot on <a rel="noopener" href="https://twitter.com/Draftbot_"
-          target="_blank">Twitter</a> ! | This website was made with <i class="fas fa-heart"></i> by
-        <a href="https://behance.net/mw3y" rel="noopener" target="_blank">MΛX</a> and <a
-          href="https://twitter.com/Bastlast_" target="_blank">BastLast</a>, icons from
-        <a href="https://icons8.com" rel="noopener" target="_blank">icons8.com</a> &
-        background by <a
-          href='https://www.freepik.com/free-vector/medieval-castle-interior-flat-cartoon-composition-with-king-throne-armed-knight-coat-arms-guard_6845842.htm'>macrovector
-          -
-          fr.freepik.com</a>
-      </p>
-
+        <p class="copyright center">
+            MIT License -
+            <var id="year">2020</var> | Check Draftbot on <a rel="noopener" href="https://twitter.com/Draftbot_"
+                                                             target="_blank">Twitter</a> ! | This website was made with
+            <i class="fas fa-heart"></i> by
+            <a href="https://behance.net/mw3y" rel="noopener" target="_blank">MΛX</a> and <a
+                href="https://twitter.com/Bastlast_" target="_blank">BastLast</a>, icons from
+            <a href="https://icons8.com" rel="noopener" target="_blank">icons8.com</a> &
+            background by <a
+                href='https://www.freepik.com/free-vector/medieval-castle-interior-flat-cartoon-composition-with-king-throne-armed-knight-coat-arms-guard_6845842.htm'>macrovector
+            -
+            fr.freepik.com</a>
+        </p>
     </div>
-  </footer>
+    <p class="copyright center">
+        We use cookies to analyse the traffic on this website. You can learn more here ! <a
+            href="https://draftbot.com/privacy">https://draftbot.com/privacy</a>
+    </p>
+</footer>
 
-  <script>
+<script>
     AOS.init();
 
     const doc = document;
@@ -326,33 +344,32 @@
     const overlay = doc.querySelector(".overlay");
 
     menuOpen.addEventListener("click", () => {
-      overlay.classList.add("overlay--active");
+        overlay.classList.add("overlay--active");
     });
 
     menuClose.addEventListener("click", () => {
-      overlay.classList.remove("overlay--active");
+        overlay.classList.remove("overlay--active");
     });
 
     var $root = $('html, body');
     $('a[href^="#"]').click(function () {
-      $root.animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-      }, 500);
+        $root.animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
 
-      return false;
+        return false;
     });
-  </script>
+</script>
 
-  <script>
+<script>
     (function () {
-      var css = document.createElement('link');
-      css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
-      css.rel = 'stylesheet';
-      css.type = 'text/css';
-      document.getElementsByTagName('head')[0].appendChild(css);
+        var css = document.createElement('link');
+        css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+        css.rel = 'stylesheet';
+        css.type = 'text/css';
+        document.getElementsByTagName('head')[0].appendChild(css);
     })();
-  </script>
-
+</script>
 
 
 </body>
