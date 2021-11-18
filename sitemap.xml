@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
       <loc>https://draftbot.com/</loc>
-      <lastmod>2020-11-01T21:42:12+00:00</lastmod>
-      <changefreq>hourly</changefreq>
+      <lastmod>2021-11-18</lastmod>
+      <changefreq>MONTHLY</changefreq>
       <priority>1.0</priority>
 </url>
 <url>
       <loc>https://draftbot.com/donate/</loc>
-      <lastmod>2020-11-01T21:42:12+00:00</lastmod>
-      <changefreq>daily</changefreq>
+      <lastmod>2021-11-18</lastmod>
+      <changefreq>MONTHLY</changefreq>
       <priority>0.8</priority>
 </url>
 </urlset>
