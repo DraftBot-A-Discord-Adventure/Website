@@ -747,9 +747,3 @@ article.card:hover .infos .details {
 		background-position: center;
 	}
 }
-
-@media screen and (min-width: 2000px) {
-	.waves {
-		display: none;
-	}
-}
