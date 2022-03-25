@@ -468,6 +468,14 @@ article.card .two {
 }
 
 article.card .three {
+	background: url(../ressources/Sticker_Soldier.png) no-repeat center;
+}
+
+article.card .four {
+	background: url(../ressources/Sticker_Ambassador.png) no-repeat center;
+}
+
+article.card .five {
 	background: url(../ressources/Sticker_RoiLecture.png) no-repeat center;
 }
 
