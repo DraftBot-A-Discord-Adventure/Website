@@ -479,6 +479,10 @@ article.card .five {
 	background: url(../ressources/Sticker_RoiLecture.png) no-repeat center;
 }
 
+article.card .six {
+	background: url(../ressources/Sticker_King_2.png) no-repeat center;
+}
+
 article.card .infos {
 	width: auto;
 	height: 350px;
