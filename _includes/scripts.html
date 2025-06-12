@@ -1,0 +1,35 @@
+<script>
+    AOS.init();
+
+    const doc = document;
+    const menuOpen = doc.querySelector(".menu");
+    const menuClose = doc.querySelector(".close");
+    const overlay = doc.querySelector(".overlay");
+
+    menuOpen.addEventListener("click", () => {
+        overlay.classList.add("overlay--active");
+    });
+
+    menuClose.addEventListener("click", () => {
+        overlay.classList.remove("overlay--active");
+    });
+
+    var $root = $('html, body');
+    $('a[href^="#"]').click(function () {
+        $root.animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+
+        return false;
+    });
+</script>
+
+<script>
+    (function () {
+        var css = document.createElement('link');
+        css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+        css.rel = 'stylesheet';
+        css.type = 'text/css';
+        document.getElementsByTagName('head')[0].appendChild(css);
+    })();
+</script>
