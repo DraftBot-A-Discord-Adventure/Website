@@ -1,33 +1,19 @@
 ---
 layout: default
 title: Crownicles - A multiplayer role-play game for Discord
+custom_header_placement: true
 ---
-<!doctype html>
-<html lang="en">
-
-<head>
-    <link rel="canonical" href="https://crownicles.com">
-    <link rel="apple-touch-icon" sizes="128x128"
-          href="https://bastlast.github.io/Crownicles-A-Discord-Adventure/public/ressources/logo-min.png"/>
-    <title>Crownicles - A multiplayer role-play game for Discord</title>
-    {% include head.html %}
-</head>
-
-<body>
 <div class="hero-bg">
-    <div>
-        {% include header.html %}
-
-        <div class="hero-infos">
-            <div>
-                <h1 class="title">Crownicles - A Discord Adventure</h1>
-            </div>
-            <a href="https://discord.gg/WwgBfSg" class="button buttonWhite buttonLarge" id="buttonJoin"><i
-                    class="fab fa-discord buttonIcon"></i>
-                Join the community!</a>
-            <a href="https://guide.crownicles.com" class="button buttonGrey buttonLarge buttonUse"><i
-                    class="fas fa-chevron-right buttonIcon"></i>Read the player's guide!</a>
+    {% include header.html %}
+    <div class="hero-infos">
+        <div>
+            <h1 class="title">Crownicles - A Discord Adventure</h1>
         </div>
+        <a href="https://discord.gg/WwgBfSg" class="button buttonWhite buttonLarge" id="buttonJoin"><i
+                class="fab fa-discord buttonIcon"></i>
+            Join the community!</a>
+        <a href="https://guide.crownicles.com" class="button buttonGrey buttonLarge buttonUse"><i
+                class="fas fa-chevron-right buttonIcon"></i>Read the player's guide!</a>
     </div>
     <div class="waves">
         <svg fill="none" preserveAspectRatio="none" version="1.1" viewBox="0 0 1440 150"
@@ -78,13 +64,22 @@ title: Crownicles - A multiplayer role-play game for Discord
                     H 0
                     V 67
                     Z
-                    ">
-                </animate>
+
+                    M0 67
+                    C 473,283
+                    822,0
+                    1440,106
+                    V 359
+                    H 0
+                    V 67
+                    Z
+                    "/>
             </path>
         </svg>
     </div>
 </div>
-<section class="verySmallMargin" id="imgExample">
+
+<section class="mediumPadding" id="imgExample">
     <div class="container" data-aos="fade-up" data-aos-duration="700">
         <img alt="Gameplay example" src="public/ressources/example-white-min.png" class="shadowed pc-content">
     </div>
@@ -233,10 +228,3 @@ title: Crownicles - A multiplayer role-play game for Discord
         </svg>
     </div>
 </section>
-
-{% include footer.html %}
-{% include scripts.html %}
-
-</body>
-
-</html>
