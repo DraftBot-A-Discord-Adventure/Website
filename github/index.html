@@ -1,153 +1,23 @@
-<!doctype html>
+---
+layout: default
+title: Crownicles - GitHub
+permalink: /github/
+redirect_to: https://github.com/Crownicles/Crownicles
+---
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://crownicles.com/donate">
-    <link rel="apple-touch-icon" sizes="128x128"
-          href="https://bastlast.github.io/Crownicles-A-Discord-Adventure/public/ressources/logo-min.png"/>
-    <title>Crownicles - A multiplayer role-play game for Discord</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-          content="Crownicles is an open-source Discord bot based on a multiplayer text adventure game. Begin your journey in a medieval world and battle to win the kingdom's princess's hand.">
-    <meta property='og:image'
-          content='https://bastlast.github.io/Crownicles-A-Discord-Adventure/public/ressources/logo-min.png'/>
-    <meta property="og:site_name" content="crownicles.com"/>
-    <meta http-equiv="refresh" content="0; url='https://github.com/Crownicles/Crownicles'" />
-
-    <!-- Favicon -->
-    <link href="../public/ressources/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
-    <link href="../public/ressources/favicon.ico" rel="icon" type="image/x-icon"/>
-
-    <link rel="preload" href="../public/css/home.css" as="style">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-          integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-          crossorigin="anonymous" as="style">
-    <link rel="stylesheet" href="../public/css/home.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-            integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-            crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-          integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-          crossorigin="anonymous"/>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
+    <link rel="canonical" href="{{ page.redirect_to }}"/>
+    <title>Redirecting to {{ page.redirect_to }}</title>
+    {% include head.html %}
 </head>
 
 <body>
-
-<div class="header">
-    <header>
-        <a class="logo" href="/"><img src="../public/ressources/banner-min.png" alt="logo"></a>
-        <nav>
-            <ul class="nav__links">
-                <li><a rel="noopener" target="_blank" href="https://guide.crownicles.com/v/en">About</a></li>
-                <li><a rel="noopener" target="_blank"
-                       href="https://github.com/Crownicles/Crownicles">Github</a></li>
-                <li><a rel="noopener" target="_blank" href="https://history.crownicles.com">History</a>
-                </li>
-                <li><a rel="noopener" target="_blank" href="https://discord.com/invite/5JqrMtZ">I need help</a>
-                </li>
-            </ul>
-        </nav>
-
-        <div class="menu">
-            <p class="button buttonWhite buttonSmall bold">Menu</p>
-        </div>
-    </header>
-
-
-    <div class="overlay">
-
-        <a class="close">&times;</a>
-        <div class="overlay__content">
-            <ul>
-                <li><a rel="noopener" target="_blank" href="https://guide.crownicles.com/v/en">About</a></li>
-                <li><a rel="noopener" target="_blank"
-                       href="https://github.com/Crownicles/Crownicles">Github</a></li>
-                <li><a rel="noopener" target="_blank" href="https://history.crownicles.com">History</a>
-                </li>
-                <li><a rel="noopener" target="_blank" href="https://discord.com/invite/5JqrMtZ">I need help</a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="smallMargin smallWaves">
-    <svg viewBox="0 0 1440 150" width="100%" height="175" preserveAspectRatio="none" fill="none" version="1.1"
-         xmlns="http://www.w3.org/2000/svg">
-        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#fff"/>
-        </linearGradient>
-        <path fill="url(#grad1)" d="
-                    M0 67
-                    C 273,183
-                    822,0
-                    1440.00,106
-                    V 359
-                    H 0
-                    V 67
-                    Z">
-        </path>
-    </svg>
-</div>
-
-<section class="mediumMargin" id="add">
-    <div class="container" data-aos="fade-up" data-aos-duration="700">
-        <div class="div-1">
-            <img alt="server" src="../public/ressources/21103.jpg" class="longScreen pc-content">
-        </div>
-        <div class="div-2">
-            <div class="description">
-                <h2 class="title">
-                    You will be redirected soon
-                </h2>
-                <div class="text">
-                    Thank you for being patient.
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<script>
-    AOS.init();
-
-    const doc = document;
-    const menuOpen = doc.querySelector(".menu");
-    const menuClose = doc.querySelector(".close");
-    const overlay = doc.querySelector(".overlay");
-
-    menuOpen.addEventListener("click", () => {
-        overlay.classList.add("overlay--active");
-    });
-
-    menuClose.addEventListener("click", () => {
-        overlay.classList.remove("overlay--active");
-    });
-
-    var $root = $('html, body');
-    $('a[href^="#"]').click(function () {
-        $root.animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 500);
-
-        return false;
-    });
-</script>
-
-<script>
-    (function () {
-        var css = document.createElement('link');
-        css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
-        css.rel = 'stylesheet';
-        css.type = 'text/css';
-        document.getElementsByTagName('head')[0].appendChild(css);
-    })();
-</script>
-
-
+<p>If you are not redirected automatically, follow this <a href='{{ page.redirect_to }}'>link to the Crownicles GitHub</a>.</p>
+{% include scripts.html %}
 </body>
 
 </html>
