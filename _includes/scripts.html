@@ -13,14 +13,21 @@
     menuClose.addEventListener("click", () => {
         overlay.classList.remove("overlay--active");
     });
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
 
-    var $root = $('html, body');
-    $('a[href^="#"]').click(function () {
-        $root.animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 500);
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
 
-        return false;
+            if (targetElement) {
+                // Smooth scroll to element
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
     });
 </script>
 
