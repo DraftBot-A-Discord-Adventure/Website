@@ -1,7 +1,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>{% if page.title %}{{ page.title }}{% else %}Crownicles{% endif %}</title>
-<meta name="description" content="Crownicles is an open-source multiplayer text adventure game. Begin your journey in a medieval world and battle to win the kingdom's princess's hand.">
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Crownicles is an open-source multiplayer text adventure game. Begin your journey in a medieval world and battle to win the kingdom's princess's hand.{% endif %}">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ site.url }}{{ page.url | relative_url }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ page.url | relative_url }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Crownicles{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Crownicles is an open-source multiplayer text adventure game. Begin your journey in a medieval world and battle to win the kingdom's princess's hand.{% endif %}">
 <meta property='og:image' content='https://bastlast.github.io/Crownicles-A-Discord-Adventure/public/ressources/logo-min.png'/>
 <meta property="og:site_name" content="crownicles.com"/>
 
@@ -11,7 +20,7 @@
   "@context": "https://schema.org",
   "@type": "VideoGame",
   "name": "Crownicles",
-  "description": "Crownicles is an open-source multiplayer text adventure game. Begin your journey in a medieval world and battle to win the kingdom's princess's hand.",
+  "description": "{% if page.description %}{{ page.description }}{% else %}Crownicles is an open-source multiplayer text adventure game. Begin your journey in a medieval world and battle to win the kingdom's princess's hand.{% endif %}",
   "image": "https://bastlast.github.io/Crownicles-A-Discord-Adventure/public/ressources/logo-min.png",
   "url": "{{ site.url }}{{ page.url | relative_url }}",
   "applicationCategory": "Game",
